@@ -36,3 +36,29 @@ body{
     background-color: black;
     color:white;
 }
+#projects-showcase{
+    margin:3px auto 3px auto;
+    width:90%;
+    height:min-content;
+    background-color:turquoise;
+    text-align: center;
+}
+#projects-container{
+    width:100%;
+    display:flex;
+    height:min-content;
+    justify-content: space-evenly;
+}
+.project{
+    height:250px;
+    width:30%;
+    background-color:red;
+    margin:5px;
+    border-radius:5%;
+    text-align: center;
+}
+.project-image{
+    margin:0 auto 0 auto;
+    width:75%;
+    height:75%;
+}
