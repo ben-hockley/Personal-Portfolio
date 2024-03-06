@@ -20,6 +20,9 @@ body{
 .content-box{
     width:100%;
     height:min-content;
+    border-radius: 2%;
+    background-color: lightblue;
+    margin-top:5px;
 }
 #heading{
     width:100%;
