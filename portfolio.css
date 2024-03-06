@@ -32,3 +32,7 @@ body{
     text-align: center;
     box-sizing: border-box;
 }
+.link:hover{
+    background-color: black;
+    color:white;
+}
