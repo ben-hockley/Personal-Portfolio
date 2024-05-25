@@ -4,3 +4,15 @@
 .navlink:hover {
     text-decoration: underline;
 }
+.showOnHover .description{
+    display: none;
+}
+.showOnHover:hover .description{
+    display: block;
+}
+.details{
+    list-style-type: none;
+}
+a{
+    color:red;
+}
