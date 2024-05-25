@@ -1,0 +1,6 @@
+.navlink{
+    text-decoration: none;
+}
+.navlink:hover {
+    text-decoration: underline;
+}

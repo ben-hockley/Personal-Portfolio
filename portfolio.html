@@ -10,7 +10,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
         <!--Font Awesome-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
 
         <!--CSS, JavaScript-->
         <link rel="stylesheet" href="portfolio.css">
@@ -19,14 +19,69 @@
     <body>
 
         <!--Bootstrap container-fluid, responsive container that fills the full width of the page.-->
-        <div class="container-fluid pt-3 pb-3 bg-primary text-white">
-            <div class="row display-1 mb-3">Ben Hockley</div>
-            <div class="row text-center">
-                <div class="col h5">About Me<i class="fa fa-user px-5"></i></div>
-                <div class="col h5">My Projects<i class="fa fa-code px-5"></i></div>
-                <div class="col h5">Get in Touch<i class="fa fa-handshake-o px-5"></i></div>
+        <div class="container-fluid pt-3 pb-3 bg-primary text-white rounded mb-3">
+            <div class="navbar text-center text-white">
+                <a class="col h5 navlink text-white border border-white rounded-start py-5" href="#aboutMe">About me<i class="fa fa-user px-5"></i></a>
+                <a class="col h5 navlink text-white border border-white py-5" href="#mySkills">My Skills<i class="fa fa-graduation-cap px-5"></i></a>
+                <a class="col h5 navlink text-white border border-white py-5" href="#myProjects">My Projects<i class="fa fa-code px-5"></i></a>
+                <a class="col h5 navlink text-white border border-white py-5">Get in Touch<i class="fa-solid fa-handshake px-5"></i></a>
             </div>
-            
+            <div class="row display-1 mb-3">Ben Hockley</div>
+            <div class="row display-6 mb-3">Software Engineer</div>
+        </div>
+
+        <!--About Me-->
+        <div class="container-fluid bg-info text-white rounded my-3" id="aboutMe">
+            <div class="row display-3 p-3">About Me</div>
+            <div class="row p-3">
+                <ul>
+                    <li>I am a student at Cardiff University studying BSc Applied Software Engineering (2023- 2026)</li>
+                    <li>I am from Leicestershire, England</li>
+                    <li>My hobbies are Music, programming and playing football.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!--My Skills-->
+        <div class="container-fluid bg-warning text-white rounded my-3" id="mySkills">
+            <div class="row display-3 p-3">My skills</div>
+            <div class="row p-3">
+                <table class="table text-white">
+                    <tr>
+                        <th>FrontEnd</th>
+                        <th>BackEnd</th>
+                    </tr>
+                    <tr>
+                        <td>HTML <i class="fa-brands fa-html5"></i></td>
+                        <td>Python <i class="fa-brands fa-python"></i></td>
+                    </tr>
+                    <tr>
+                        <td>CSS <i class="fa-brands fa-css3"></i></td>
+                        <td>Java <i class="fa-brands fa-java"></i></td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript<i class="fa-brands fa-js"></i></td>
+                        <td>mySQL/ MariaDB <i class="fa fa-database"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Bootstrap<i class="fa-brands fa-bootstrap"></i></td>
+                        <td>GIT <i class="fa-brands fa-git mx-1"></i><i class="fa-brands fa-github mx-1"></i><i class="fa-brands fa-gitlab mx-1"></i></td>
+                    </tr>
+                    <tr>
+                        <td>JQuery <i class="fa-brands fa-jquery"></i></td>
+                        <td>Cyber Security <i class="fa-solid fa-shield-halved"></i></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="container-fluid bg-success text-white rounded my-3" id="myProjects">
+            <div class="row display-3 p-3">My Projects</div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </row>
+
         </div>
 
 
